@@ -1,0 +1,114 @@
+#header {
+  width: 1272px;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(45, 45, 45);
+}
+
+#Project-Name {
+  width: 180px;
+  height: 30px;
+  position: absolute;
+  top: 15px;
+  left: 200px;
+  padding: 0px 10px 0px 10px;
+  border: solid rgb(100, 100, 100) 1px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(10, 10, 10);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+#Control-button {
+  position: absolute;
+  top: 70px;
+  right: 480px;
+}
+
+.Control-button {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  -webkit-user-drag: none;
+}
+
+.Control-button:hover {
+  border-radius: 5px;
+  background-color: rgba(0, 230, 255, 0.2);
+}
+
+#Sidebar {
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  width: 80px;
+  height: 400px;
+  background-color: rgb(20, 20, 20);
+}
+
+#file {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  padding: 5px 10px 5px 10px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+#file:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#Sprite-list {
+  width: 614px;
+  height: 84px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(45, 45, 45);
+}
+
+.tool {
+  margin: 20px 0px 0px 15px;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  -webkit-user-drag: none;
+}
+
+.tool.selected {
+  background-color: rgba(0, 230, 255, 0.2);
+}
+
+#edit {
+  position: absolute;
+  top: 110px;
+  left: 80px;
+  background-color: rgb(30, 30, 30);
+}
+
+#screen {
+  position: absolute;
+  top: 120px;
+  right: 26px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
